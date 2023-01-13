@@ -91,18 +91,18 @@
         let a = false;
 
         const rotate = () => {
-          const audio = new Audio('/pouch.mp3');
+          const audio = new Audio("/pouch.mp3");
           audio.playbackRate = 2;
           //   alert('aaa');
           if (a) {
-            $('#tali-satu').css('transform', 'rotate(-82deg)');
-            $('#tali-dua').css('transform', 'rotate(262deg)');
+            $("#tali-satu").css("transform", "rotate(-82deg)");
+            $("#tali-dua").css("transform", "rotate(262deg)");
 
             audio.play();
             a = false;
           } else {
-            $('#tali-satu').css('transform', 'rotate(82deg)');
-            $('#tali-dua').css('transform', 'rotate(98deg)');
+            $("#tali-satu").css("transform", "rotate(82deg)");
+            $("#tali-dua").css("transform", "rotate(98deg)");
 
             audio.play();
             a = true;
